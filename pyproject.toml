@@ -1,0 +1,13 @@
+[project]
+name = "qpcr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastexcel>=0.13.0",
+    "openpyxl>=3.1.5",
+    "polars>=1.26.0",
+    "xlsx2csv>=0.8.4",
+    "xlsxwriter>=3.2.2",
+]
