@@ -1,3 +1,6 @@
+import polars as pl
+from scipy import stats
+
 
 def load_results_DA2(xlsx_ifn):
     import warnings
